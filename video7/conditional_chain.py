@@ -50,6 +50,6 @@ chain = classifier_chain | branch_chain
 
 result = chain.invoke({'feedback': 'The product is ok okaish , not bad'})
 
-chain.get_graph().print_ascii()
+chain.get_graph().print_ascii
 
 print(result)
